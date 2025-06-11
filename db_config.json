@@ -1,0 +1,45 @@
+{
+  "databases": {
+    "postgresql": {
+      "db_type": "PostgreSQL",
+      "driver_class": "org.postgresql.Driver",
+      "driver_path": "/path/to/postgresql-42.6.0.jar",
+      "url": "jdbc:postgresql://IP:5432/DB_NAME",
+      "user": "user",
+      "password": "password"
+    },
+    "mysql": {
+      "db_type": "MySQL",
+      "driver_class": "com.mysql.cj.jdbc.Driver",
+      "driver_path": "/path/to/mysql-connector-java-8.0.26.jar",
+      "url": "jdbc:mysql://localhost:3306/mydatabase",
+      "user": "myuser",
+      "password": "mypassword"
+    },
+    "db2": {
+      "db_type": "DB2",
+      "driver_class": "com.ibm.db2.jcc.DB2Driver",
+      "driver_path": "/path/to/db2jcc.jar",
+      "url": "jdbc:db2://IP:PORT/DBNAME",
+      "user": "user",
+      "password": "password"
+    },
+    "netezza": {
+      "db_type": "Netezza",
+      "driver_class": "org.netezza.Driver",
+      "driver_path": "/path/to/netezza-jdbc.jar",
+      "url": "jdbc:netezza://localhost:5480/mydatabase",
+      "user": "myuser",
+      "password": "mypassword"
+    },
+    "greenplum": {
+      "db_type": "Greenplum",
+      "driver_class": "org.postgresql.Driver",
+      "driver_path": "/path/to/postgresql-42.6.0.jar",
+      "url": "jdbc:postgresql://localhost:5432/mydatabase",
+      "user": "myuser",
+      "password": "mypassword"
+    }
+  }
+}
+
