@@ -1,4 +1,6 @@
 # Python JDBC Коннектор для Баз Данных (Singleton) с использованием jaydebeapi
+![python_databases_connector(1)](https://github.com/user-attachments/assets/6bee25a7-b381-4a51-81b7-d541ec5b0e51)
+
 
 Надежный, потокобезопасный Singleton коннектор для баз данных на Python, поддерживающий несколько СУБД через JDBC с использованием [jaydebeapi](https://pypi.org/project/jaydebeapi/).  
 Поддерживает PostgreSQL, Greenplum, IBM DB2, Netezza, MySQL и может быть расширен для других баз данных через настраиваемые JDBC драйверы.
